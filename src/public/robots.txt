@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://brightstack.space/sitemap.xml
+Sitemap: https://calmprotocol.pro/sitemap.xml

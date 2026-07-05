@@ -1,5 +1,5 @@
 .header {
-  background: #e3e7ed;
+  background: #aefbb1;
   position: fixed;
   width: 100%;
   top: 0;
@@ -56,14 +56,15 @@
 }
 
 .header-logo-text {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Fredoka', sans-serif;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 1.33333;
   text-align: center;
   color: #010101;
 
   @include media(desktop) {
+    font-size: 18px;
   }
 }
 
@@ -86,7 +87,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Fredoka', sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.33333;
@@ -105,7 +106,7 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    background: #0e4fa9;
+    background: #25333a;
     border-radius: 24px;
     padding: 10px 24px;
     margin-left: 223px;

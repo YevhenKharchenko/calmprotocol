@@ -10,8 +10,8 @@
   margin: 0 auto;
 
   @include media(desktop) {
-    padding-top: 221px;
-    padding-bottom: 193px;
+    padding-top: 228px;
+    padding-bottom: 200px;
     max-width: 1440px;
     position: relative;
   }
@@ -34,7 +34,7 @@
 }
 
 .hero-title {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Fredoka', sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 1.33333;
@@ -93,7 +93,7 @@
 }
 
 .hero-btn {
-  background: #0e4fa9;
+  background: #25333a;
   border-radius: 24px;
   padding: 16px 24px;
   display: flex;
@@ -113,6 +113,7 @@
   @include media(desktop) {
     font-size: 22px;
     line-height: 1.45455;
+    max-width: 337px;
     margin: 0;
   }
 }

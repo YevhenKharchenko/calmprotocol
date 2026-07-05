@@ -1,5 +1,5 @@
 .footer {
-  background: #0e4fa9;
+  background: #25333a;
 
   @include media(desktop) {
   }
@@ -59,7 +59,7 @@
 
     &::after {
       content: '|';
-      font-family: 'Barlow Condensed', sans-serif;
+      font-family: 'Fredoka', sans-serif;
       font-weight: 600;
       font-size: 14px;
       line-height: 1.28571;
@@ -68,7 +68,7 @@
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
-      right: -16px;
+      right: -14px;
     }
   }
 
@@ -86,7 +86,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Fredoka', sans-serif;
   font-weight: 600;
   font-size: 14px;
   line-height: 1.28571;
@@ -100,7 +100,7 @@
 }
 
 .footer-text {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Fredoka', sans-serif;
   font-weight: 600;
   font-size: 14px;
   line-height: 1.28571;
