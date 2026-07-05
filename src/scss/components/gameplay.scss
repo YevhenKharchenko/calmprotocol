@@ -1,0 +1,65 @@
+.gameplay-section {
+  background: #0e4fa9;
+
+  @include media(desktop) {
+  }
+}
+
+.gameplay-section-wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    max-width: 1440px;
+  }
+}
+
+.gameplay-container {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-title {
+  color: #fff;
+
+  @include media(desktop) {
+  }
+}
+
+.gameplay-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #fff;
+
+  @include media(desktop) {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+
+.gameplay-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: disc;
+  color: #fff;
+  padding-left: 25px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.gameplay-list-item {
+  @include media(desktop) {
+  }
+}
